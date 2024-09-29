@@ -1,3 +1,8 @@
+; Filename: EXER27.ASM 
+; Programmer Name: Seth Nathaniel G. Emia 
+; Date: September 29, 2024
+; Description: This assembly language program will get 2 integer inputs and displays their difference 
+; can display negative values when subtrahend is bigger than the minuend
 .model small
 .stack 500h
 .data
@@ -46,7 +51,7 @@ main:
     mov bx, result2
 
     sub result, bx
-    jns positive
+    jns positive ; checks if the difference is not signed, jumps if it is not signed
 
     mov ax, result
     not ax

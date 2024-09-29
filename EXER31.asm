@@ -1,12 +1,14 @@
+; Filename: EXER31.ASM 
+; Programmer Name: Seth Nathaniel G. Emia 
+; Date: September 29, 2024
+; Description: This assembly language program will ask for an integer, and prints the numbers from 1 to the inputted integer
 .model small
 .stack 500h
 .data
     max_len equ 10
-    inputNumString db "9999", 0  ; The input string representing the number
     input db 6 dup('$')
     input2 db 6 dup('$')    
-    prompt db 13,10,'input thy number: $'
-    result dw 0               ; To store the resulting integer
+    prompt db 13,10,'Enter an integer: $'
     ctr dw 1
     Ten DW 10 
     buffer DB 6 DUP(?)  ; 
@@ -27,11 +29,13 @@ main:
     lea si, input  ; Load the address of input into SI
     mov bx, 0            ; Clear BX, this will hold the final result
     call convertLoop
-    mov result, bx
+    
 
 StartCountLoop:
+    
+    
     mov ax, ctr
-    call ConvertToDec
+    call ConvertToString
     
     lea dx, buffer
     call printString
@@ -40,6 +44,11 @@ StartCountLoop:
     cmp ctr, bx
     je endCountLoop
     add ctr, 1
+
+    mov ah,02h
+    mov dl,0Ah ; NEW LINE
+    int 21h
+    
     jmp StartCountLoop
 
     
@@ -75,7 +84,7 @@ endConvert:
     
 
 
-ConvertToDec:
+ConvertToString:
     MOV CX, 0           ; CX will hold the digit count
 
     ; Convert each digit

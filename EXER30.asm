@@ -1,3 +1,7 @@
+; Filename: EXER30.ASM 
+; Programmer Name: Seth Nathaniel G. Emia 
+; Date: September 29, 2024
+; Description: This assembly language program will ask for 2 integers, and compares which one is bigger and smaller
 .model small
 .stack 500h
 .data

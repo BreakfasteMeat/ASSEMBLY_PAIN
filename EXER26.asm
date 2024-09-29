@@ -1,3 +1,7 @@
+; Filename: EXER26.ASM 
+; Programmer Name: Seth Nathaniel G. Emia 
+; Date: September 29, 2024
+; Description: This assembly language program will get 2 integer inputs and displays their sum
 .model small
 .stack 500h
 .data
