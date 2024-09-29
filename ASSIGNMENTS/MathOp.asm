@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 .data
-    inputString db "1234", 0  ; The input string representing the number
+    inputString db "1", 0  ; The input string representing the number
     result dw 0               ; To store the resulting integer
     Ten DW 10 
     buffer DB 6 DUP(?)  ; 
