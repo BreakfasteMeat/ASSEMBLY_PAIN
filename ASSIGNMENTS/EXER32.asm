@@ -66,13 +66,15 @@ exit_message db 'Exit Program$'
 start:
 ;----- CLEAR SCREEN
 
-    mov ah, 06h
-    mov al, 0 
-    mov cx,0
-    mov dh,25
+    mov al, 13h 
+    mov ah, 0 
     int 10h
     
+    mov al, 03h 
+    mov ah, 0 
+    int 10h
     
+
     mov ax,@data
     mov ds,ax
     
