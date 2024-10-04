@@ -8,10 +8,9 @@ row2 db '       [< Balance Inquiry ]                  [    Recent Transaction  >
 row3 db '       [<    Transfer     ]                  [ Credit Card Operations >]        ','$'
 row4 db '       [<   Change PIN    ]                  [         Deposit        >]        ','$'
 
-FILEHEADER1 db 'Filename: Exer4.asm',13,10,'Programmer Name: Seth Nathaniel G. Emia',13,10,'$'
-FILEHEADER2 db 'Program Description: display 4 lines of characters with different background ',13,10,'$'
-FILEHEADER3 db '                     and foreground colors',13,10,'$'
-FILEHEADER4 db 'Date Created:  September 6, 2024',13,10,10,10,10,'$'
+FILEHEADER1 db 'Filename: Exer11.asm',13,10,'Programmer Name: Seth Nathaniel G. Emia',13,10,'$'
+FILEHEADER2 db 'Program Description: Display an ATM main menu screen ',13,10,'$'
+FILEHEADER3 db 'Date Created:  September 6, 2024',13,10,10,10,10,'$'
 .stack 100
 .code
 start:
@@ -34,9 +33,6 @@ start:
 	call printString
 
 	lea dx, FILEHEADER3
-	call printString
-
-	lea dx, FILEHEADER4
 	call printString
 
 

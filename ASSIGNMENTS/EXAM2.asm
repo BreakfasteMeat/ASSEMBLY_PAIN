@@ -50,11 +50,38 @@ divisor_output db 13,10,'Divisor is: $'
 invalid db 'INVALID CHOICE!$'
 exit_message db 'Exit Program$'
 
+FILEHEADER1 db 'Filename: Exam2.asm',13,10,'Programmer Name: Seth Nathaniel G. Emia',13,10,'$'
+FILEHEADER2 db 'Program Description: This assembly language program is a simulation of a calculator  ',13,10,'$'
+FILEHEADER3 db '                     but only shows but does not do the actual calculation',13,10,'$'
+FILEHEADER4 db 'Date Created:  September 28, 2024',13,10,10,10,10,'$'
+
 .code
 start:
+;---CLEAR SCREEN BY CHANGING VIDEO MODE
+    mov al, 13h 
+    mov ah, 0 
+    int 10h
+    
+    mov al, 03h 
+    mov ah, 0 
+    int 10h
+    mov ax,1112h
+    int 10h
     mov ax,@data
     mov ds,ax
-    
+
+
+	lea dx, FILEHEADER1
+	call printString
+	
+	lea dx, FILEHEADER2
+	call printString
+
+	lea dx, FILEHEADER3
+	call printString
+
+	lea dx, FILEHEADER4
+	call printString
     mov dx, offset header
     call printString
 

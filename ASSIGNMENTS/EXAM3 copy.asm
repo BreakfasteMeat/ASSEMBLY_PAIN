@@ -71,6 +71,11 @@
     collegeYear db 50 dup('$')
 
 
+FILEHEADER1 db 'Filename: Exam3.asm',13,10,'Programmer Name: Seth Nathaniel G. Emia',13,10,'$'
+FILEHEADER2 db 'Program Description: This assembly language program is a simulation of a calculator  ',13,10,'$'
+FILEHEADER3 db '                     but only shows but does not do the actual calculation',13,10,'$'
+FILEHEADER4 db 'Date Created:  September 28, 2024',13,10,10,10,10,'$'
+
 
 
 
@@ -91,6 +96,18 @@ start:
     ;DECREASE CHARACTER HEIGHT to 8 pixels [THIS MAKES THE CURSOR INVISIBLE CUZ OF SOME WEIRD THINGS WITH DECREASING PIXEL HEIGHT OF CHARACTER BUT OTHERWISE IT IS STILL FUNCTIONAL]
     mov ax,1112h
     int 10h
+
+	lea dx, FILEHEADER1
+	call printString
+	
+	lea dx, FILEHEADER2
+	call printString
+
+	lea dx, FILEHEADER3
+	call printString
+
+	lea dx, FILEHEADER4
+	call printString
 
     mov ah, 09h
     mov bl, 5Fh
