@@ -8,18 +8,38 @@ row2 db '       [< Balance Inquiry ]                  [    Recent Transaction  >
 row3 db '       [<    Transfer     ]                  [ Credit Card Operations >]        ','$'
 row4 db '       [<   Change PIN    ]                  [         Deposit        >]        ','$'
 
+FILEHEADER1 db 'Filename: Exer4.asm',13,10,'Programmer Name: Seth Nathaniel G. Emia',13,10,'$'
+FILEHEADER2 db 'Program Description: display 4 lines of characters with different background ',13,10,'$'
+FILEHEADER3 db '                     and foreground colors',13,10,'$'
+FILEHEADER4 db 'Date Created:  September 6, 2024',13,10,10,10,10,'$'
+.stack 100
 .code
 start:
+    ;---CLEAR SCREEN BY CHANGING VIDEO MODE
+    mov al, 13h 
+    mov ah, 0 
+    int 10h
+    
+    mov al, 03h 
+    mov ah, 0 
+    int 10h
+	
     mov ax,@data
     mov ds,ax
 
+	lea dx, FILEHEADER1
+	call printString
+	
+	lea dx, FILEHEADER2
+	call printString
 
-    mov ah,0
-    mov al,13h
-    int 10h
-    mov ah,0
-    mov al,03h
-    int 10h
+	lea dx, FILEHEADER3
+	call printString
+
+	lea dx, FILEHEADER4
+	call printString
+
+
 
     call printNewLine
 
@@ -109,11 +129,7 @@ start:
     call printBlankLine
 
 
-    mov dh,23
-    mov dl,20
-    mov bh,0
-    mov ah,2
-    int 10h
+
 
 
 
