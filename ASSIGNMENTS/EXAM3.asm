@@ -1,15 +1,10 @@
-; Filename: EXAM3.ASM
-; CS243 Lab Hands-on Exam No. 3
-; First Semester SY 2024-2025
-; Student Name: NATHANAEL JEDD N. DEL CASTILLo
-; Date Finished: 10/03/2024
- 
+
 .model small
 .stack 100h
 .data
  
     p1 db "VOTER'S REGISTRATION FORM", 13,10, '$'
-    p2 db 'Created by: NATHANAEL JEDD N. DEL CASTILLO', 13, 10, '$'
+    p2 db 'Created by: NAME HERE', 13, 10, '$'
     p3 db 'Date: 10/03/2024', 13, 10, '$'
  
     firstNamePrompt db 13, 10,'First Name: $'
