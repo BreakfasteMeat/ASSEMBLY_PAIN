@@ -1,0 +1,35 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 0038BH 0038CH _TEXT              CODE
+ 00390H 0053DH 001AEH _DATA              DATA
+ 00540H 0063FH 00100H STACK              STACK
+
+  Address         Publics by Name
+
+ 0000:0123       PROC_GETCH
+ 0000:014C       PROC_GETINT
+ 0000:02A9       PROC_GETLINT
+ 0000:020D       PROC_GETSTR
+ 0000:00AB       PROC_NWLN
+ 0000:00A2       PROC_PUTCH
+ 0000:00D3       PROC_PUTINT
+ 0000:0247       PROC_PUTLINT
+ 0000:00BA       PROC_PUTSTR
+ 0039:0094       TEMP
+
+  Address         Publics by Value
+
+ 0000:00A2       PROC_PUTCH
+ 0000:00AB       PROC_NWLN
+ 0000:00BA       PROC_PUTSTR
+ 0000:00D3       PROC_PUTINT
+ 0000:0123       PROC_GETCH
+ 0000:014C       PROC_GETINT
+ 0000:020D       PROC_GETSTR
+ 0000:0247       PROC_PUTLINT
+ 0000:02A9       PROC_GETLINT
+ 0039:0094       TEMP
+
+Program entry point at 0000:0000
+

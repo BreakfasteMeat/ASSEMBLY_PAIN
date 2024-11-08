@@ -1,0 +1,349 @@
+		;------------------------------------------
+	mov ah,02h ; prepare display
+	mov cl,0Ah ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;------------------------------------------
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	mov ah,02h ; prepare display
+	mov cl,2Dh ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;------------------------------------------
+	mov ah,02h ; prepare display
+	mov cl,0Ah ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;------------------------------------------
+;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,58h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,31h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,32h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,33h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,34h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,35h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,36h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,37h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,38h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,39h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+
+
+	mov ah,02h ; prepare display
+	mov cl,7Ch ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,20h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,31h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
+	;
+	mov ah,02h ; prepare display
+	mov cl,30h ; 41h is capital A
+	mov dl,cl ; move anything from cl to dl
+	int 21h ; instruction to display
